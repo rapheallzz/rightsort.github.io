@@ -41,6 +41,11 @@
 /* ======= Google fonts (Khand) ======= */
 @import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&amp;display=swap');
 
+/* extra code */
+
+.ser-vices{
+    color: #EC2619;
+}
 
 /* ======= Basic style ======= */
 html,
