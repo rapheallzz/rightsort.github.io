@@ -2480,7 +2480,7 @@ line-height: 1em;
 
 /* =======  Clients style  ======= */
 .clients {
-/*     padding: 60px 0*/
+    /* padding: 60px 0 */
  }
  .clients .clients-wrap {
      border-top: 1px solid #f6f6f6;
@@ -2507,7 +2507,7 @@ line-height: 1em;
      height: 180px
  }
  .clients img {
-     transition: all 0.4s ease-in-out
+     transition: all 0.4s ease-in-out;
  }
 .clients .client-logo:hover {
     background: #f3ece5;
@@ -3592,6 +3592,11 @@ color: #fff;
     .project-texts {
         padding: 20px
     }
+    .clients img{
+        width: 130px;
+        height: 100px;
+    }
+
     .savoye-comment-section h3 span {
         margin-left: 0px;
     }
@@ -3612,6 +3617,8 @@ color: #fff;
     }
 }
 @media screen and (max-width: 480px) {
+           
+
     .footer {
         padding: 60px 0;
     }
